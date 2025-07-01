@@ -9,30 +9,28 @@ Realizado por Isabel Castrillón Acosta.
 
 ## 📁 Estructura del Proyecto
 
+```plaintext
 DATKNOW-PT/
-│
 ├── Prueba tecnica 1/
-│ ├── Caso/
-│ ├── Datos/
-│ └── Resultados/
-│ ├── 1_Exploracion_Inicial.ipynb
-│ └── 2_Informe_Final.ipynb
+│   ├── Caso/
+│   ├── Datos/
+│   └── Resultados/
+│       ├── 1_Exploracion_Inicial.ipynb
+│       └── 2_Informe_Final.ipynb
 │
 ├── Prueba tecnica 2/
-│ ├── Caso/
-│ ├── Datos/
-│ │ └── sentencias_pasadas.xlsx
-│ └── Resultados/
-│ ├── 1_Exploracion_Inicial.ipynb
-│ └── 2_Informe_Final.ipynb
+│   ├── Caso/
+│   ├── Datos/
+│   │   └── sentencias_pasadas.xlsx
+│   └── Resultados/
+│       ├── 1_Exploracion_Inicial.ipynb
+│       └── 2_Informe_Final.ipynb
 │
 ├── .env
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
-
----
+```
 
 ## 🧪 Prueba Técnica 1 - Estimación de Costos de Equipos
 
@@ -92,6 +90,7 @@ pip install -r requirements.txt
 ```
 
 ### 4️. Configurar las variables de entorno (Clave API de OpenAI)
+
 Crea un archivo `.env` en la raíz del proyecto y añade tu clave API de OpenAI:
 
 ```plaintext
@@ -101,14 +100,16 @@ OPENAI_API_KEY="tu_clave_api_aqui"
 ### 5. Ejecutar los notebooks
 Abre Jupyter Notebook o VS Code y navega a:
 
-Prueba tecnica 1/Resultados/1_Exploracion_Inicial.ipynb
+- Prueba tecnica 1/Resultados/1_Exploracion_Inicial.ipynb
 
-Prueba tecnica 2/Resultados/2_Informe_Final.ipynb
+- Prueba tecnica 2/Resultados/2_Informe_Final.ipynb
 
 ## Autor
 
-Isabel Castrillón
+Isabel Castrillón Acosta
+
 Julio 2025
-Proyecto de evaluación técnica para Dataknow SAS
+
+Proyecto de evaluación técnica para Dataknow
 
 
